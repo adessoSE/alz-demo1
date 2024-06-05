@@ -1,0 +1,7 @@
+configuration_file_path         = "custom_config.yaml"
+default_location                = "westeurope"
+default_postfix                 = "landing-zone"
+root_parent_management_group_id = ""
+subscription_id_connectivity    = "20e1ae0f-b5a3-4a0e-8955-4e285e7a9693"
+subscription_id_identity        = "18028374-fbe1-45d1-991d-6b11a02f10d0"
+subscription_id_management      = "78dc7c73-237e-41f6-a01a-c60ae0273c5e"
