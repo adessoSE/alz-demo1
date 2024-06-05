@@ -1,0 +1,19 @@
+{
+    "extend_es_root": {
+      "policy_assignments": ["SOC2Type2", "ISO27001_2013"],
+      "policy_definitions": [],
+      "policy_set_definitions": [],
+      "role_definitions": [],
+      "archetype_config": {
+        "parameters": {
+          "SOC2Type2": {
+            "allowedContainerImagesRegex-febd0533-8e55-448f-b837-bd0e06f16469": "^[^\\/]+\\.azurecr\\.io\\/.+$",
+            "cpuLimit-e345eecc-fa47-480f-9e88-67dcc122b164": "200m",
+            "memoryLimit-e345eecc-fa47-480f-9e88-67dcc122b164": "1Gi"
+          }
+        },
+        "access_control": {
+        }
+      }
+    }
+  }
